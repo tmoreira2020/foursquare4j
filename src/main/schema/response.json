@@ -1,0 +1,33 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"definitions": {
+		
+	},
+	"properties": {
+		"meta": {
+			"properties": {
+				"code": {
+					"type": "integer"
+				},
+				"requestId": {
+					"type": "string"
+				},
+				"error_detail": {
+					"type": "string"
+				},
+				"error_type": {
+					"type": "string"
+				}
+			},
+			"type": "object"
+		},
+		"response": {
+			"oneOf": [
+				{
+					"$ref": "venue.json"
+				}
+			]
+		}
+	},
+	"type": "object"
+}

@@ -1,0 +1,45 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	"properties": {
+		"allowMenuUrlEdit": {
+			"type": "boolean"
+		},
+		"canonicalUrl": {
+			"type": "string"
+		},
+		"createdAt": {
+			"type": "integer"
+		},
+		"dislike": {
+			"type": "boolean"
+		},
+		"id": {
+			"type": "string"
+		},
+		"name": {
+			"type": "string"
+		},
+		"ok": {
+			"type": "boolean"
+		},
+		"rating": {
+			"type": "number"
+		},
+		"ratingSignals": {
+			"type": "integer"
+		},
+		"shortUrl": {
+			"type": "string"
+		},
+		"stats": {
+			"$ref": "stats.json"
+		},
+		"url": {
+			"type": "string"
+		},
+		"verified": {
+			"type": "boolean"
+		}
+	}
+}

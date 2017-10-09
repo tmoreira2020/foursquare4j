@@ -1,0 +1,18 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	"properties": {
+		"checkinsCount": {
+			"type": "integer"
+		},
+		"tipCount": {
+			"type": "integer"
+		},
+		"usersCount": {
+			"type": "integer"
+		},
+		"visitsCount": {
+			"type": "integer"
+		}
+	}
+}
