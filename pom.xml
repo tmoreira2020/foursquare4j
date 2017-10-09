@@ -27,7 +27,7 @@
 
 	<groupId>br.com.thiagomoreira.foursquare</groupId>
 	<artifactId>foursquare4j</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 
 	<name>foursquare4j</name>
 	<description>Foursquare for Java - A Java wrapper to the Foursquare API</description>
@@ -37,7 +37,7 @@
 	<scm>
 		<connection>scm:git:git@github.com:tmoreira2020/foursquare4j.git</connection>
 		<developerConnection>scm:git:git@github.com:tmoreira2020/foursquare4j.git</developerConnection>
-		<tag>1.0.0</tag>
+		<tag>HEAD</tag>
 		<url>https://github.com/tmoreira2020/foursquare4j</url>
 	</scm>
 	<issueManagement>
